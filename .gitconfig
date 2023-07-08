@@ -1,0 +1,10 @@
+[user]
+	name = Iaroslav B.
+	email = here2contactme@gmail.com
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+	grep = auto
+	ui = auto
