@@ -8,4 +8,4 @@ alias cl='clear && la'
 alias ted='gnome-text-editor'
 alias vim='nvim'
 
-
+alias cdib='cd /home/irosb/workspace/github/iarosb'
