@@ -1,5 +1,6 @@
-# dotfiles for setting up a Linux environment
+# Linux workstation dotfiles collection
 
-fonts --> .local/share/
+## Fonts location in Ubuntu/Debian systems
+    ~/.local/share/
 
 
