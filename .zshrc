@@ -90,6 +90,7 @@ source $ZSH/oh-my-zsh.sh
 # fi
 
 # Compilation flags
+#
 # export ARCHFLAGS="-arch x86_64"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
@@ -109,6 +110,15 @@ alias cl="clear && la"
 
 alias ted="gnome-text-editor"
 alias vim="nvim"
+# alias z="zoxide"
 
-alias cdib="cd /home/irosb/workspace/github/iarosb"
 alias gitaddcommit="git add . && git commit"
+
+alias listbackups="sudo timeshift --list | grep \>"
+alias bat="batcat"
+
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.local/bin
+
+export trash="$HOME/.local/share/Trash/files"
+
+eval "$(zoxide init zsh)"
