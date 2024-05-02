@@ -1,0 +1,270 @@
+[ca/desrt/dconf-editor]
+saved-pathbar-path='/org/gnome/desktop/session/'
+saved-view='/org/'
+show-warning=false
+window-height=550
+window-is-maximized=false
+window-width=837
+
+[com/ubuntu/update-notifier]
+release-check-time=uint32 1714081640
+
+[org/gnome/control-center]
+last-panel='system'
+window-state=(960, 640, false)
+
+[org/gnome/desktop/app-folders]
+folder-children=['Utilities', 'YaST', 'Pardus']
+
+[org/gnome/desktop/app-folders/folders/Pardus]
+categories=['X-Pardus-Apps']
+name='X-Pardus-Apps.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/Utilities]
+apps=['gnome-abrt.desktop', 'gnome-system-log.desktop', 'nm-connection-editor.desktop', 'org.gnome.baobab.desktop', 'org.gnome.Connections.desktop', 'org.gnome.DejaDup.desktop', 'org.gnome.Dictionary.desktop', 'org.gnome.DiskUtility.desktop', 'org.gnome.Evince.desktop', 'org.gnome.FileRoller.desktop', 'org.gnome.fonts.desktop', 'org.gnome.Loupe.desktop', 'org.gnome.seahorse.Application.desktop', 'org.gnome.tweaks.desktop', 'org.gnome.Usage.desktop', 'vinagre.desktop']
+categories=['X-GNOME-Utilities']
+name='X-GNOME-Utilities.directory'
+translate=true
+
+[org/gnome/desktop/app-folders/folders/YaST]
+categories=['X-SuSE-YaST']
+name='suse-yast.directory'
+translate=true
+
+[org/gnome/desktop/background]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Little_numbat_boy_by_azskalt.png'
+picture-uri-dark='file:///usr/share/backgrounds/Little_numbat_boy_by_azskalt.png'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/calendar]
+show-weekdate=false
+
+[org/gnome/desktop/datetime]
+automatic-timezone=true
+
+[org/gnome/desktop/input-sources]
+mru-sources=[('xkb', 'us'), ('xkb', 'ua')]
+sources=[('xkb', 'us'), ('xkb', 'ua')]
+xkb-options=@as []
+
+[org/gnome/desktop/interface]
+clock-format='12h'
+clock-show-seconds=false
+clock-show-weekday=true
+color-scheme='prefer-dark'
+enable-hot-corners=false
+gtk-theme='Yaru-dark'
+icon-theme='Yaru'
+show-battery-percentage=false
+
+[org/gnome/desktop/notifications]
+application-children=['org-gnome-nautilus', 'firefox-firefox', 'org-gnome-settings', 'discord-discord']
+
+[org/gnome/desktop/notifications/application/discord-discord]
+application-id='discord_discord.desktop'
+
+[org/gnome/desktop/notifications/application/firefox-firefox]
+application-id='firefox_firefox.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-nautilus]
+application-id='org.gnome.Nautilus.desktop'
+
+[org/gnome/desktop/notifications/application/org-gnome-settings]
+application-id='org.gnome.Settings.desktop'
+
+[org/gnome/desktop/peripherals/touchpad]
+send-events='disabled'
+two-finger-scrolling-enabled=true
+
+[org/gnome/desktop/privacy]
+old-files-age=uint32 30
+recent-files-max-age=30
+remove-old-temp-files=true
+remove-old-trash-files=true
+
+[org/gnome/desktop/screensaver]
+color-shading-type='solid'
+picture-options='zoom'
+picture-uri='file:///usr/share/backgrounds/Little_numbat_boy_by_azskalt.png'
+primary-color='#000000'
+secondary-color='#000000'
+
+[org/gnome/desktop/session]
+idle-delay=uint32 0
+
+[org/gnome/desktop/wm/preferences]
+button-layout=':minimize,maximize,close'
+num-workspaces=1
+
+[org/gnome/evolution-data-server]
+migrated=true
+
+[org/gnome/gnome-system-monitor]
+current-tab='processes'
+show-dependencies=false
+show-whose-processes='user'
+
+[org/gnome/gnome-system-monitor/disktreenew]
+col-6-visible=true
+col-6-width=30
+columns-order=[5]
+sort-col=1
+sort-order=0
+
+[org/gnome/login-screen]
+enable-fingerprint-authentication=false
+
+[org/gnome/mutter]
+center-new-windows=true
+dynamic-workspaces=false
+edge-tiling=false
+
+[org/gnome/mutter/keybindings]
+toggle-tiled-left=@as []
+toggle-tiled-right=@as []
+
+[org/gnome/nautilus/preferences]
+default-folder-viewer='icon-view'
+migrated-gtk-settings=true
+search-filter-time-type='last_modified'
+
+[org/gnome/nautilus/window-state]
+initial-size=(890, 550)
+
+[org/gnome/portal/filechooser/snap.discord]
+last-folder-path='/home/iarosh/Pictures/Screenshots'
+
+[org/gnome/power-manager]
+info-history-type='charge'
+info-last-device='/org/freedesktop/UPower/devices/battery_BAT1'
+info-page-number=2
+info-stats-type='discharge-accuracy'
+
+[org/gnome/settings-daemon/plugins/color]
+night-light-enabled=false
+night-light-temperature=uint32 2836
+
+[org/gnome/settings-daemon/plugins/power]
+ambient-enabled=false
+idle-brightness=22
+idle-dim=true
+power-saver-profile-on-low-battery=false
+sleep-inactive-ac-timeout=3600
+sleep-inactive-ac-type='nothing'
+
+[org/gnome/shell]
+app-picker-layout=[{'software-properties-drivers.desktop': <{'position': <0>}>, 'snap-store_snap-store.desktop': <{'position': <1>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.eog.desktop': <{'position': <4>}>, 'gnome-language-selector.desktop': <{'position': <5>}>, 'nvidia-settings.desktop': <{'position': <6>}>, 'org.gnome.PowerStats.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'software-properties-gtk.desktop': <{'position': <9>}>, 'update-manager.desktop': <{'position': <10>}>, 'org.gnome.Settings.desktop': <{'position': <11>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <12>}>, 'gnome-session-properties.desktop': <{'position': <13>}>, 'org.gnome.Terminal.desktop': <{'position': <14>}>, 'Utilities': <{'position': <15>}>, 'info.desktop': <{'position': <16>}>, 'yelp.desktop': <{'position': <17>}>, 'org.gnome.TextEditor.desktop': <{'position': <18>}>, 'timeshift-gtk.desktop': <{'position': <19>}>, 'nvim_nvim.desktop': <{'position': <20>}>, 'cmatrix.desktop': <{'position': <21>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <22>}>, 'discord_discord.desktop': <{'position': <23>}>}, {'htop.desktop': <{'position': <0>}>, 'org.wireshark.Wireshark.desktop': <{'position': <1>}>}]
+disabled-extensions=@as []
+enabled-extensions=['ding@rastersoft.com', 'ubuntu-dock@ubuntu.com', 'tiling-assistant@ubuntu.com']
+favorite-apps=['chromium_chromium.desktop', 'firefox_firefox.desktop', 'org.wireshark.Wireshark.desktop', 'org.gnome.Nautilus.desktop']
+last-selected-power-profile='performance'
+welcome-dialog-last-shown-version='46.0'
+
+[org/gnome/shell/app-switcher]
+current-workspace-only=true
+
+[org/gnome/shell/extensions/dash-to-dock]
+customize-alphas=true
+dash-max-icon-size=64
+dock-fixed=false
+dock-position='BOTTOM'
+extend-height=false
+isolate-monitors=true
+isolate-workspaces=true
+max-alpha=0.0
+min-alpha=0.0
+show-mounts=false
+show-mounts-network=false
+show-mounts-only-mounted=true
+show-show-apps-button=false
+show-trash=false
+transparency-mode='DYNAMIC'
+
+[org/gnome/shell/extensions/ding]
+check-x11wayland=true
+icon-size='large'
+show-home=false
+start-corner='bottom-right'
+
+[org/gnome/shell/extensions/tiling-assistant]
+active-window-hint-color='rgb(211,70,21)'
+last-version-installed=46
+overridden-settings={'org.gnome.mutter.edge-tiling': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-left': <@mb nothing>, 'org.gnome.mutter.keybindings.toggle-tiled-right': <@mb nothing>}
+tiling-popup-all-workspace=false
+
+[org/gnome/shell/world-clocks]
+locations=@av []
+
+[org/gnome/terminal/legacy/profiles:]
+default='b1dcc9dd-5262-4d8d-a863-c897e6d979b9'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9', 'e2b2781f-306e-45dc-8a1f-a4ad0252b3e0', '4d631cf5-d8c9-4b77-ba8e-90161924a8e8']
+
+[org/gnome/terminal/legacy/profiles:/:4d631cf5-d8c9-4b77-ba8e-90161924a8e8]
+background-color='rgb(2,33,41)'
+background-transparency-percent=9
+bold-is-bright=true
+cursor-colors-set=false
+font='JetBrainsMono Nerd Font Mono 14'
+foreground-color='rgb(147,203,209)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(218,162,50)'
+palette=['rgb(23,20,33)', 'rgb(219,11,26)', 'rgb(125,149,174)', 'rgb(42,123,222)', 'rgb(36,104,188)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(137,131,155)', 'rgb(224,4,22)', 'rgb(179,201,188)', 'rgb(233,173,12)', 'rgb(220,124,40)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='test'
+
+[org/gnome/terminal/legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+background-color='rgb(2,33,41)'
+background-transparency-percent=9
+bold-is-bright=true
+cursor-colors-set=false
+font='JetBrainsMono Nerd Font Mono 14'
+foreground-color='rgb(147,203,209)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(218,162,50)'
+palette=['rgb(23,20,33)', 'rgb(219,11,26)', 'rgb(113,180,105)', 'rgb(42,123,222)', 'rgb(36,104,188)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(137,131,155)', 'rgb(224,4,22)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(220,124,40)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+
+[org/gnome/terminal/legacy/profiles:/:e2b2781f-306e-45dc-8a1f-a4ad0252b3e0]
+background-color='rgb(2,33,41)'
+background-transparency-percent=9
+bold-is-bright=true
+cursor-colors-set=false
+font='JetBrainsMono Nerd Font Mono 14'
+foreground-color='rgb(147,203,209)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(218,162,50)'
+palette=['rgb(23,20,33)', 'rgb(219,11,26)', 'rgb(0,177,1)', 'rgb(42,123,222)', 'rgb(36,104,188)', 'rgb(163,71,186)', 'rgb(42,161,179)', 'rgb(208,207,204)', 'rgb(137,131,155)', 'rgb(224,4,22)', 'rgb(51,209,122)', 'rgb(233,173,12)', 'rgb(220,124,40)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='home'
+
+[org/gtk/gtk4/settings/file-chooser]
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+sidebar-width=140
+sort-column='name'
+sort-directories-first=true
+sort-order='ascending'
+type-format='category'
+view-type='list'
+window-size=(819, 372)
+
+[org/gtk/settings/color-chooser]
+custom-colors=[(0.70013333333333339, 0.78666666666666674, 0.73901856540084399, 1.0), (0.19999999999999996, 0.81960784313725488, 0.47843137254901974, 1.0), (0.017888888888888895, 0.076666666666666675, 0.044301687763713099, 1.0), (0.21070315315315322, 0.38, 0.18873333333333334, 1.0), (0.24709947447447456, 0.34333333333333338, 0.23461111111111116, 1.0), (0.26184459459459464, 0.33000000000000002, 0.253, 1.0), (0.22118243243243252, 0.5, 0.18500000000000005, 1.0), (0.0, 0.69411764705882351, 0.0039215686274509803, 1.0)]
+selected-color=(true, 0.70013333333333339, 0.78666666666666674, 0.73901856540084399, 1.0)
+
+[org/gtk/settings/file-chooser]
+clock-format='12h'

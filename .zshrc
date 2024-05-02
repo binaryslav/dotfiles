@@ -101,24 +101,23 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias l="ls -CF"
 alias c="clear"
 
 alias ll="ls -alF"
-alias l="ls -CF"
 alias la="ls -la --group-directories-first"
 alias cl="clear && la"
 
 alias ted="gnome-text-editor"
 alias vim="nvim"
-# alias z="zoxide"
+alias bat="batcat"
+alias z="zoxide"
+alias fd="fdfind"
 
 alias gitaddcommit="git add . && git commit"
-
 alias listbackups="sudo timeshift --list | grep \>"
-alias bat="batcat"
 
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/local/go/bin:$HOME/go/bin:$HOME/.local/bin
-
 export trash="$HOME/.local/share/Trash/files"
 
 eval "$(zoxide init zsh)"
