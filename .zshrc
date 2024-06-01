@@ -108,7 +108,10 @@ alias ll="ls -alF"
 alias la="ls -la --group-directories-first"
 alias cl="clear && la"
 
-alias ted="gnome-text-editor"
+alias e="eza -1a"
+alias ed="eza -al --group-directories-first"
+alias ce="clear && eza -al --group-directories-first"
+
 alias vim="nvim"
 alias bat="batcat"
 alias z="zoxide"
