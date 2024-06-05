@@ -7,8 +7,8 @@ window-height=400
 window-width=593
 
 [ca/desrt/dconf-editor]
-saved-pathbar-path='/org/gnome/desktop/wm/keybindings/move-to-workspace-left'
-saved-view='/org/gnome/desktop/wm/keybindings/'
+saved-pathbar-path='/org/gnome/shell/keybindings/toggle-quick-settings'
+saved-view='/org/gnome/shell/keybindings/toggle-quick-settings'
 show-warning=false
 window-height=1001
 window-is-maximized=false
@@ -51,6 +51,9 @@ word-size=64
 [org/gnome/control-center]
 last-panel='background'
 window-state=(470, 512, false)
+
+[org/gnome/desktop/a11y/applications]
+screen-reader-enabled=false
 
 [org/gnome/desktop/a11y/magnifier]
 mag-factor=1.0
@@ -102,6 +105,7 @@ enable-hot-corners=false
 gtk-theme='Yaru-dark'
 icon-theme='Yaru'
 show-battery-percentage=false
+toolkit-accessibility=false
 
 [org/gnome/desktop/notifications]
 application-children=['org-gnome-nautilus', 'firefox-firefox', 'org-gnome-settings', 'discord-discord', 'org-gnome-texteditor', 'org-gnome-eog', 'io-snapcraft-sessionagent', 'gnome-power-panel', 'org-gnome-characters', 'playonlinux', 'ca-desrt-dconf-editor']
@@ -279,8 +283,8 @@ sleep-inactive-ac-type='nothing'
 app-picker-layout=[{'software-properties-drivers.desktop': <{'position': <0>}>, 'snap-store_snap-store.desktop': <{'position': <1>}>, 'firmware-updater_firmware-updater.desktop': <{'position': <2>}>, 'org.gnome.clocks.desktop': <{'position': <3>}>, 'org.gnome.eog.desktop': <{'position': <4>}>, 'gnome-language-selector.desktop': <{'position': <5>}>, 'nvidia-settings.desktop': <{'position': <6>}>, 'org.gnome.PowerStats.desktop': <{'position': <7>}>, 'org.gnome.Calculator.desktop': <{'position': <8>}>, 'software-properties-gtk.desktop': <{'position': <9>}>, 'update-manager.desktop': <{'position': <10>}>, 'org.gnome.Settings.desktop': <{'position': <11>}>, 'org.gnome.SystemMonitor.desktop': <{'position': <12>}>, 'gnome-session-properties.desktop': <{'position': <13>}>, 'Utilities': <{'position': <14>}>, 'info.desktop': <{'position': <15>}>, 'yelp.desktop': <{'position': <16>}>, 'org.gnome.TextEditor.desktop': <{'position': <17>}>, 'timeshift-gtk.desktop': <{'position': <18>}>, 'nvim_nvim.desktop': <{'position': <19>}>, 'ca.desrt.dconf-editor.desktop': <{'position': <20>}>}, {'htop.desktop': <{'position': <0>}>, 'btop.desktop': <{'position': <1>}>, 'virtualbox.desktop': <{'position': <2>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <3>}>, 'display-im6.q16.desktop': <{'position': <4>}>}]
 command-history=['recent filename', 'nvim', 'r', 'firefox', 'echo hw', 'mkdir ~/dev/tmp_mrpickles/boom']
 disable-user-extensions=false
-disabled-extensions=['ding@rastersoft.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'tiling-assistant@ubuntu.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'ubuntu-dock@ubuntu.com', 'window-list@gnome-shell-extensions.gcampax.github.com']
-enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'pop-shell@system76.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
+disabled-extensions=['ding@rastersoft.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'tiling-assistant@ubuntu.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'ubuntu-dock@ubuntu.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com']
+enabled-extensions=['ubuntu-appindicators@ubuntu.com', 'pop-shell@system76.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['org.gnome.Nautilus.desktop', 'chromium_chromium.desktop', 'firefox_firefox.desktop', 'org.wireshark.Wireshark.desktop', 'discord_discord.desktop', 'org.gnome.Extensions.desktop', 'org.gnome.Terminal.desktop']
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='46.0'
@@ -331,6 +335,7 @@ tiling-popup-all-workspace=false
 open-application-menu=@as []
 toggle-message-tray=['<Super>v']
 toggle-overview=@as []
+toggle-quick-settings=['<Super>z']
 
 [org/gnome/shell/world-clocks]
 locations=@av []
